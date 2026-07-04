@@ -1,0 +1,12 @@
+import numpy as np
+arr = np.random.randint(1,51,20)
+print("1D Array:")
+print(arr)
+matrix = arr.reshape(4,5)
+print("\n4x5 Matrix:")
+print(matrix)
+print("\nSum:", np.sum(matrix))
+print("Mean:", np.mean(matrix))
+print("Standard Deviation:", np.std(matrix))
+print("\nMaximum value in each row:")
+print(np.max(matrix, axis=1))
