@@ -1,0 +1,16 @@
+import numpy as np
+arr = np.array([[10, 20, 30, 40],
+                [50, 60, 70, 80],
+                [90, 100, 110, 120],
+                [130, 140, 150, 160]])
+
+print("Original Array:")
+print(arr)
+print("\nFirst Row:")
+print(arr[0])
+print("\nLast Column:")
+print(arr[:, 3])
+print("\nMiddle 2x2 Sub-array:")
+print(arr[1:3, 1:3])
+print("\nElement at 3rd Row, 2nd Column:")
+print(arr[2, 1])

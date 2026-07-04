@@ -1,0 +1,14 @@
+import numpy as np
+arr = np.arange(1, 13)
+arr1 = arr.reshape(3, 4)
+arr2 = arr.reshape(2, 6)
+arr3 = arr.reshape(4, 3)
+#print results
+print("Original 1D Array:")
+print(arr)
+print("\nReshape to 3 x 4:")
+print(arr1)
+print("\nReshape to 2 x 6:")
+print(arr2)
+print("\nReshape to 4 x 3:")
+print(arr3)
