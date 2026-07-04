@@ -1,0 +1,10 @@
+import numpy as np
+arr1 = np.zeros(8)
+arr2 = np.ones((4, 4))
+arr3 = np.zeros((3, 3))
+print("1D Array of 8 zeros:")
+print(arr1)
+print("\n4x4 Array of ones:")
+print(arr2)
+print("\n3x3 Matrix of Zeros:")
+print(arr3)
